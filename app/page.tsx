@@ -245,7 +245,7 @@ export default function OAnQuanMaster() {
       <div className="flex flex-col items-center gap-6 scale-90 md:scale-100">
         <div className="flex flex-col items-center">
           <p className="text-rose-400 font-bold mb-2 tracking-tighter">
-            AI ({difficulty}) - ĐÃ ĂN: {score[1]}
+            AI Đẳng cấp({difficulty}) - ĐÃ ĂN: {score[1]}
           </p>
           <div className="w-[500px] h-14 bg-black/40 rounded-full flex flex-wrap items-center justify-center px-6 gap-1 border border-rose-900/50 shadow-inner">
             {Array.from({ length: score[1] }).map((_, i) => (
@@ -305,7 +305,7 @@ export default function OAnQuanMaster() {
             ))}
           </div>
           <p className="text-indigo-400 font-bold mt-2 tracking-tighter text-lg uppercase">
-            Kho của bạn - ĐÃ ĂN: {score[0]}
+            Doanh Doanh cùi bắp - ĐÃ ĂN: {score[0]}
           </p>
         </div>
       </div>
