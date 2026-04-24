@@ -74,12 +74,12 @@ export default function OAnQuanMaster() {
 
       const result =
         finalScore[0] > finalScore[1]
-          ? "BẠN THẮNG!"
+          ? "Ngựa Ngố THẮNG!"
           : finalScore[0] < finalScore[1]
-            ? "AI THẮNG!"
-            : "HÒA CỜ!";
+            ? "Otis THẮNG nho hó hó!"
+            : "HÒA NKA FEN!";
       alert(
-        `HẾT QUAN, TÀN DÂN!\n\nĐiểm của bạn: ${finalScore[0]}\nĐiểm AI: ${finalScore[1]}\n\nKết quả: ${result}`,
+        `HẾT QUAN, TÀN DÂN!\n\nĐiểm của ní á ní: ${finalScore[0]}\nĐiểm Otis: ${finalScore[1]}\n\nKết quả: ${result}`,
       );
       window.location.reload();
       return true;
